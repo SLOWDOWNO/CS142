@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+}
+
+.box {
+    display: flex;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-right: 10px;
+    padding: 10px;
+    font-family: Tahoma;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+#finalBox {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
